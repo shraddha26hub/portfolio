@@ -1,0 +1,84 @@
+/* Projects Section */
+.projects {
+  max-width: 1100px;
+  margin: auto;
+  padding: 50px 10px;
+}
+
+.projects h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #38bdf8;
+}
+
+/* Grid layout for project cards */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* Individual project card */
+.project-card {
+  background: #020617;
+  padding: 20px;
+  border-radius: 15px;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 220px;
+}
+
+/* Hover effect for cards */
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* Project title */
+.project-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+/* Project description and tech stack */
+.project-card p {
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+  line-height: 1.5;
+  color: #cbd5e1; /* light gray */
+}
+
+/* Project links container */
+.project-links {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* GitHub / Live Demo links */
+.project-links a {
+  text-decoration: none;
+  color: #38bdf8;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.project-links a:hover {
+  color: white;
+  transform: scale(1.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    min-height: auto;
+  }
+}

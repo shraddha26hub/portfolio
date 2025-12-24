@@ -1,0 +1,47 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* ANIMATION: IMAGE DROPPING FROM TOP */
+.hero-image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  animation: dropIn 1s ease forwards;
+}
+
+@keyframes dropIn {
+  0% {
+    transform: translateY(-500px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Hero text */
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
+
+.hero-text p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #38bdf8;
+}
+
+@media(max-width:768px){
+  .hero-image img{ width:150px; height:150px; }
+  .hero-text h1{ font-size:2rem; }
+  .hero-text p{ font-size:1rem; }
+}

@@ -1,0 +1,22 @@
+.letstalk {
+  text-align: center;
+  padding: 50px 10px;
+}
+
+.letstalk .icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.letstalk .icons a {
+  color: #38bdf8;
+  transition: 0.3s;
+}
+
+.letstalk .icons a:hover {
+  color: white;
+  transform: scale(1.2);
+}
