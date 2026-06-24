@@ -8,16 +8,14 @@ function Hero() {
     <section id="home" className="hero">
       <div className="hero-container">
 
-        {/* PROFILE IMAGE */}
         <div className="hero-image">
           <img src={profile} alt="Profile" />
         </div>
 
-        {/* HERO TEXT */}
         <div className="hero-text">
-          <h1>Hi, I'm Your Name</h1>
+          <h1>Hi, I'm <span className="hightlighted">Shraddha Pyakurel</span></h1>
           <TypingText
-            text="Frontend Developer | React Developer | MERN Stack Developer"
+            text="Frontend Developer | React/Next Developer"
             speed={50}
             className="hero-typewriter"
           />

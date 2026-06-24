@@ -2,16 +2,18 @@ import "../styles/Project.css";
 
 const projects = [
   {
-    name: "Portfolio Website",
-    description: "My personal portfolio using React and CSS.",
-    tech: "React, CSS",
-    github: "https://github.com/shraddha26hub/portfolio"
+    name: "Task Manager",
+    description: "can manage the task add task ",
+    tech: "Next.js,Shadcn,Tailwind CSS",
+    github: "https://github.com/shraddha26hub/taskmanager0",
+    vercel: "https://taskmanager-mauve-one.vercel.app/"
   },
   {
-    name: "Chat App",
-    description: "Real-time chat app using Socket.io.",
-    tech: "React, Node, Socket.IO",
-    github: "https://github.com/shraddha26hub/chatapp",
+    name: "foodie app",
+    description: "can see the meal share meal",
+    tech: "Next, Node, Sqlite3",
+    github: "https://github.com/shraddha26hub/foodieapp",
+    vercel: "https://foodieapp-three.vercel.app/",
     demo: "#",
   },
 ];
@@ -29,6 +31,7 @@ function Project() {
             <p><strong>Tech:</strong> {projects.tech}</p>
             <div className="project-links">
               <a href={projects.github} target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href={projects.vercel} target="_blank" rel="noopener noreferrer">Vercel</a>
               
             </div>
           </div>

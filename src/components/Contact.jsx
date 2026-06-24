@@ -1,4 +1,3 @@
-import "../styles/Contact.css";
 import { FaEnvelope, FaPhone } from "react-icons/fa";
 
 function Contact() {
@@ -6,7 +5,7 @@ function Contact() {
     <section id="contact">
       <h2>Contact</h2>
       <p><FaPhone/>9816074478</p>
-      <p><FaEnvelope /> shraddha59@gmail.com</p>
+      <p><FaEnvelope /> shraddhapyakurel59@gmail.com</p>
     </section>
   );
 }

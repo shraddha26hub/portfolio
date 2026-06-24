@@ -8,12 +8,12 @@ function About() {
       <h2>About Me</h2>
 
       <TypingText
-        text="I am a BIM student and frontend developer with strong skills in JavaScript, React, and MERN stack. I enjoy building responsive and user-friendly web applications. I have worked on portfolio websites, e-commerce apps, and other real-world projects."
+        text="I am a BIM student and frontend developer with strong skills in JavaScript, React, and NextJs. I enjoy building responsive and user-friendly web applications. I have worked on portfolio websites, e-commerce apps, and other real-world projects."
         speed={30}
         className="about-typewriter"
       />
 
-      <a href="/Shraddha_CV.pdf" download className="about-cv-btn">
+      <a href="/Shraddha_Pyakurel_CV.pdf" download className="about-cv-btn">
         <FaDownload /> Download My CV
       </a>
     </section>
